@@ -28,6 +28,7 @@ var models = [
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 200 0',
         position: '2 2 2 ',
+    },
     {
         url: './assets/articuno/scene.gltf',
         scale: '0.2 0.2 0.2',
