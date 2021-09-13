@@ -28,7 +28,7 @@ var models = [
         rotation: '0 0 0',
     },
     {
-        url: './assets/articuno/scene.gltf',
+        url: './assets/Custodio/Custodio.obj',
         scale: '0.1 0.1 0.1',
         rotation: '0 0 0',
         info: 'Articuno, Lv. 80, HP 100/100',
