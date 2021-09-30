@@ -1,3 +1,4 @@
+
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
     button.innerText = '?';
@@ -12,9 +13,10 @@ function staticLoadPlaces() {
             name: 'Pokèmon',
             location: {
                 // decomment the following and add coordinates:
+
                 lat:4.5923059032358635,  
                 lng:-74.19122737738059,
-                
+
             },
         },
     ];
