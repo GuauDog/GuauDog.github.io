@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>C</title>
+  <title>B</title>
 </head>  
 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 <!-- we import arjs version without NFT but with marker + location based support -->
@@ -8,7 +8,7 @@
 
 <body style="margin : 0px; overflow: hidden;">
   <a-scene embedded arjs>
-    <a-marker preset="hiro">
+    <a-marker type='pattern' url='articuno/articuno.patt'>
       <a-entity position="0 0 0" scale="0.009 0.009 0.009" gltf-model="articuno/scene.gltf"></a-entity>
     </a-marker>
     <!-- <a-marker preset="hiro">
