@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>B</title>
+    <title>Z</title>
     <!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
@@ -39,12 +39,11 @@
         <a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - Check out the repository !
     </div>
     <a-scene embedded arjs>
-        <a-assets id="vid">
-            <a-video  loop="true" crossorigin
+        
+            <a-video id="vid" loop="true" crossorigin
                 src="https://cdn.glitch.com/b62367d1-ceab-454b-b664-b032f995ed86%2FBig_Buck_Bunny_Trailer_1080p.ogv.720p.webm?1532370072191">
             </a-video>
 
-        </a-assets>
 
         <a-marker id="memarker" preset="hiro" vidhandler>
             <a-plane position='1 1 1' scale="2 2 2" width="2" rotation="-90 0 0" material='transparent:true;opacity: 0.7;src:#vid'>
