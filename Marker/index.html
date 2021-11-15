@@ -1,12 +1,11 @@
 <html>
 
 <head>
-  <title>O</title>
+  <title>P</title>
 </head>
 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 <!-- we import arjs version without NFT but with marker + location based support -->
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-
 <body style="margin : 0px; overflow: hidden;">
   <a-scene embedded arjs>
     <!-- <a-marker type='pattern' url='https://guaudog.github.io//Marker/articuno/articuno.patt'>
@@ -18,23 +17,13 @@
     <a-marker preset="kanji">
       <a-entity position="0 0 0" scale="0.1 0.1 0.1" gltf-model="../magnemite/scene.gltf"></a-entity>
     </a-marker> -->
-
     <a-marker preset="hiro">
       <a-entity position="0 0 -1" scale="3 3 3" gltf-model="retro_computer/scene.gltf"></a-entity>
-      
     </a-marker>
-
     <a-marker preset="kanji">
       <a-entity position="0 0 0" scale="0.1 0.1 0.1" gltf-model="gameboy/scene.gltf"></a-entity>
     </a-marker>
-
-    <a-marker type='pattern' src='pattern-pc.patt'>
-      <a-entity position="0 0 -1" scale="3 3 3" gltf-model="articuno/scene.gltf"></a-entity>
-    </a-marker>
-
     <a-entity camera></a-entity>
   </a-scene>
-
 </body>
-
 </html>
