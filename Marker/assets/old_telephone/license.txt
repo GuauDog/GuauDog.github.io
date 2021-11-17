@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old Telephone
+* source:	https://sketchfab.com/3d-models/old-telephone-4cc422f6e1d64999baf6d19c9f1c0f4a
+* author:	Keri (https://sketchfab.com/SnowySnowy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old Telephone" (https://sketchfab.com/3d-models/old-telephone-4cc422f6e1d64999baf6d19c9f1c0f4a) by Keri (https://sketchfab.com/SnowySnowy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
