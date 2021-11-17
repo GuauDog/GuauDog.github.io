@@ -8,10 +8,10 @@
 <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
 
 <body style="margin : 0px; overflow: hidden;">
-  <a-scene  arjs
+  <a-scene  arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
   embedded
   renderer="logarithmicDepthBuffer: true;"
-  vr-mode-ui="enabled: true"
+  vr-mode-ui="enabled: false"
   gesture-detector
   id="scene">
 
@@ -43,7 +43,7 @@
 
 
     <a-marker preset="kanji">
-      <a-entity position="0 0 0" scale="0.4 0.4 0.4" gltf-model="assets/walkman/scene.gltf" gesture-handler="minScale: 0.07; maxScale: 5"></a-entity>
+      <a-entity position="0 0 0" scale="0.6 0.6 0.6" gltf-model="assets/walkman/scene.gltf" gesture-handler="minScale: 0.07; maxScale: 5"></a-entity>
     </a-marker>
 
 
