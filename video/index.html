@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>VIDEO AR</title>
+    <title>aVIDEO AR</title>
 
   <!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
 
@@ -35,7 +35,7 @@ if(this.el.object3D.visible == true){
   </script>
 
 <script>
-  AFRAME.registerComponent('vidhandler', {
+  AFRAME.registerComponent('vidhandlera', {
     // ...
     init: function () {
       // Set up initial state and variables.
@@ -83,7 +83,7 @@ if(this.el.object3D.visible == true){
       <a-plane position='0 0 0' scale="2 2 2" width="2" rotation="-90 0 0" material='transparent:true;opacity: 0.9;src:#vid'></a-plane>
     </a-marker>
 
-    <a-marker id="memarker" preset="kanji" vidhandler>
+    <a-marker id="memarker" preset="kanji" vidhandlera>
       <a-plane position='0 0 0' scale="2 2 2" width="2" rotation="-90 0 0" material='transparent:true;opacity: 0.9;src:#video'></a-plane>
     </a-marker>
 
