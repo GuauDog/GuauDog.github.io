@@ -34,6 +34,30 @@ if(this.el.object3D.visible == true){
 });
   </script>
 
+<script>
+  AFRAME.registerComponent('vidhandler', {
+    // ...
+    init: function () {
+      // Set up initial state and variables.
+      this.toggle = false;
+      this.vid = document.querySelector("#video")
+      this.vid.pause();
+    },
+    tick:function(){
+      
+  if(this.el.object3D.visible == true){
+    if(!this.toggle){
+       this.toggle = true;
+       this.vid.play();
+      }
+    }else{
+    this.toggle = false;
+      this.vid.pause();
+      }
+    }
+  });
+    </script>
+
 </head>
 
 
@@ -52,11 +76,17 @@ if(this.el.object3D.visible == true){
    
     <a-assets>
       <video id="vid" src="https://guaudog.github.io/video/Tv.m4v" loop="true" crossorigin>
+      <video id="video" src="https://youtu.be/giBPKvSWU9g" loop="true" crossorigin>
     </a-assets>
 
     <a-marker id="memarker" preset="hiro" vidhandler>
       <a-plane position='0 0 0' scale="2 2 2" width="2" rotation="-90 0 0" material='transparent:true;opacity: 0.9;src:#vid'></a-plane>
     </a-marker>
+
+    <a-marker id="memarker" preset="kanji" vidhandler>
+      <a-plane position='0 0 0' scale="2 2 2" width="2" rotation="-90 0 0" material='transparent:true;opacity: 0.9;src:#video'></a-plane>
+    </a-marker>
+
 
   </a-scene>
 </body>
